@@ -1,0 +1,14 @@
+{
+  "name": "commons-math-interpolation-typescript",
+  "version": "0.0.1",
+  "description": "This is a TypeScript version of some interpolation Java classes of the Apache Commons Math library.",
+  "main": "ApacheCommonsMathInterpolation.js",
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.3.2",
+    "uglify-js": "^3.0.3"
+  }
+}

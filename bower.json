@@ -1,0 +1,37 @@
+{
+	"name": "commons-math-interpolation",
+	"version": "0.0.1",
+	"description": "TypeScript version of some interpolation Java classes of the Apache Commons Math library.",
+	"keywords": [
+		"interpolation",
+		"commons",
+		"math",
+		"typescript"
+	],
+	"homepage": "http://www.source-code.biz/snippets/typescript/akima/",
+	"author": {
+		"name": "Christian d'Heureuse",
+		"url": "http://www.source-code.biz/"
+	},
+	"contributors": [
+		{
+			"name": "The Apache Software Foundation",
+			"url": "http://www.apache.org/"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arichnad/commons-math-interpolation-typescript.git"
+	},
+	"main": "ApacheCommonsMathInterpolation.js",
+	"license": "Apache-2.0",
+	"ignore": [
+		"README.md",
+		"**/.*",
+		"node_modules",
+		"package.json",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
