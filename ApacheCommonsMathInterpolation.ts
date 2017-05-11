@@ -1,3 +1,4 @@
+//http://www.source-code.biz/snippets/typescript/akima/ApacheCommonsMathInterpolation.ts
 // This is a TypeScript version of some interpolation Java classes of the
 // Apache Commons Math library. It currently contains the following main
 // classes and related classes and interfaces:
@@ -429,7 +430,7 @@ export class LinearInterpolator implements UnivariateInterpolator {
  * than or equal to <code>x</code>.  The value returned is
  * {@code polynomials[j](x - knot[j])}</li></ol>
  */
-class PolynomialSplineFunction {
+export class PolynomialSplineFunction {
 
     /**
      * Spline segment interval delimiters (knots).
@@ -516,7 +517,7 @@ i = Math.max(0, Math.min(i, this.polynomials.length - 1));
  * <a href="http://mathworld.wolfram.com/HornersMethod.html">Horner's Method</a>
  * is used to evaluate the function.</p>
  */
-class PolynomialFunction {
+export class PolynomialFunction {
 
     /**
      * The coefficients of the polynomial, ordered by degree -- i.e.,
